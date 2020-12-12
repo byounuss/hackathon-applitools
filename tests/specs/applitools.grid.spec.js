@@ -30,7 +30,6 @@ describe('Applitools Hackathon', function () {
 
     beforeAll(async () => {
 
-        const viewport
         // Create a runner with concurrency of 1
         const runnerOptions = new RunnerOptions().testConcurrency(1)
         runner = new VisualGridRunner(runnerOptions);

@@ -12,6 +12,13 @@ const {
 } = require('@applitools/eyes-webdriverio');
 
 let eyes;
+const viewportWidth = 1200;
+const viewportHeight = 800;
+var urlsToValidate = [
+    "tlcHackathonMasterV1.html",
+    "tlcHackathonDev.html",
+    "tlcHackathonMasterV2.html"
+];
 
 describe('Applitools Hackathon', function () {
 
