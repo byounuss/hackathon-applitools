@@ -41,7 +41,7 @@ describe('Applitools Hackathon', function () {
         const configuration = new Configuration();
 
         // You can get your api key from the Applitools dashboard
-        configuration.setApiKey('XUasmk5OhvwTZiCvcx270103kXGwGXPEE1oHjXqWMCz1Y110')
+        configuration.setApiKey('7CTzEjsjG1107108Zxwo93l9rJOn0LBQaoK70100BmvZcOmb0110')
 
         // create a new batch info instance and set it to the configuration
         configuration.setBatch(new BatchInfo('Holiday Shopping'))
@@ -50,7 +50,7 @@ describe('Applitools Hackathon', function () {
         configuration.addBrowser(viewportWidth, viewportHeight, BrowserType.CHROME);
         configuration.addBrowser(viewportWidth, viewportHeight, BrowserType.FIREFOX);
         configuration.addBrowser(viewportWidth, viewportHeight, BrowserType.EDGE_CHROMIUM);
-        configuration.addBrowser(viewportWidth, c, BrowserType.SAFARI);
+        configuration.addBrowser(viewportWidth, viewportHeight, BrowserType.SAFARI);
 
         // Add mobile emulation devices in Portrait mode
         configuration.addDeviceEmulation(DeviceName.iPhone_X, ScreenOrientation.PORTRAIT);
