@@ -34,7 +34,7 @@ describe('Applitools Hackathon', function () {
         const configuration = new Configuration();
 
         // You can get your api key from the Applitools dashboard
-        configuration.setApiKey('XUasmk5OhvwTZiCvcx270103kXGwGXPEE1oHjXqWMCz1Y110')
+        configuration.setApiKey('7CTzEjsjG1107108Zxwo93l9rJOn0LBQaoK70100BmvZcOmb0110')
 
         // Set new batch
         configuration.setBatch(new BatchInfo('Holiday Shopping'))
